@@ -1,0 +1,129 @@
+#pokeCard
+{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width:270px;
+    height:370px;
+    border: 20px solid;
+    border-color: #ffcc50;
+    border-radius: 20px;
+    margin: auto;
+}
+.icon
+{
+    width: 50x;
+    height: 0px;
+}
+
+.row
+{
+    justify-content: center;
+    padding-top: 10%;
+    
+}
+
+.tipo
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+}
+.imagenes 
+{
+    width: 50px;
+    align-content: center;
+    display: inline-block;
+    flex-direction: column;
+    margin: auto;
+}
+
+.foto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: center;    
+    background-image: url("./fondo/fondoCarta.png");
+    background-size: 120% ;
+    background-repeat: no-repeat;
+    width: 90%;
+    height : 100px;
+
+}
+
+.ataques
+{
+    height:140px;
+}
+
+.tooltip-text 
+{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    color: white;
+    font-size: 12px;
+    background-color: #192733;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+}
+  
+.hover-text:hover .tooltip-text 
+{
+    visibility: visible;
+}
+
+  
+.hover-text 
+{
+    position: relative;
+    display: inline-block;
+    font-family: Avenir;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    color: white;
+    font-size: 12px;
+    background-color: #192733;
+    border-radius: 10px;
+}
+
+.hover-text:hover .tooltip-text 
+{
+    visibility: visible;
+}
+
+.fotoPoke
+{
+    height:100px;
+}
+
+#header
+{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.nombre
+{
+    margin-left: 10px;
+    color: white;
+}
+
+.vida
+{
+    margin-right: 10px;
+}
